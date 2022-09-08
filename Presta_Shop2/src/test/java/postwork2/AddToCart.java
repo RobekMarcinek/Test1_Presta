@@ -10,7 +10,7 @@ public class AddToCart {
     public AddToCart(WebDriver driver) {
         this.driver = driver;
     }
-
+// mała zmiana
     public void findStuff(String howMany) throws IOException {
         driver.findElement(By.id("category-3")).click();
         driver.findElement(By.xpath("//h2/a[text()='Hummingbird printed sweater']")).click();
