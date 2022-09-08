@@ -26,7 +26,7 @@ public class LoginTest {
         // Przejdź do MyStore
         driver.get("https://mystore-testlab.coderslab.pl/index.php");
     }
-
+//testy
     @Test
     public void properBuyProcess() throws IOException {
         LoginToAccount LoginToAccount = new LoginToAccount(driver);
